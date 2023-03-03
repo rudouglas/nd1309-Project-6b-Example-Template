@@ -2,37 +2,17 @@
 
 This repository containts an Ethereum DApp that demonstrates a Supply Chain flow between a Seller and Buyer. The user story is similar to any commonly used supply chain process. A Seller can add items to the inventory system stored in the blockchain. A Buyer can purchase such items from the inventory system. Additionally a Seller can mark an item as Shipped, and similarly a Buyer can mark an item as Received.
 
-## UML Diagrams
-### Activity
-![](images/Activity.png)
-### Sequence
-![](images/Sequence.png)
-### State
-![](images/State.png)
-### Classes (Data Model)
-![](images/Classes%20(Data%20Model).png)
+The DApp User Interface when running should look like...
 
-### UI Transaction History
-![](images/UI.png)
+![truffle test](images/ftc_product_overview.png)
 
-## Libraries
- - Truffle `v5.1.65` 
- - Solidity `^0.4.24`
- - Node `v14.17.1`
- - Web3.js `v1.2.9`
- - ganache `v7.7.4`
- - @truffle/hdwallet-provider `^2.1.7` 
-   - Used to securely connect to Metamask
- - dotenv `^16.0.3`  
-   - Used to securely read environment variables form `.env` file
+![truffle test](images/ftc_farm_details.png)
 
-## IPFS
+![truffle test](images/ftc_product_details.png)
 
-> Not Used
->
-## Contract
- - Address - `0x73ddF36504F076C260E4b4A16afC5D052D84B9b5`
- - Transaction ID - `0x51c28975bc61d7022eb3f08675beef569257df136e26c5f6e34ce8c6e55ce300`
+![truffle test](images/ftc_transaction_history.png)
+
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
@@ -42,12 +22,12 @@ These instructions will get you a copy of the project up and running on your loc
 Please make sure you've already installed ganache-cli, Truffle and enabled MetaMask extension in your browser.
 
 ```
-npm i -g ganache
-npm i -g truffle@5.1.65
+Give examples (to be clarified)
 ```
 
 ### Installing
 
+> The starter code is written for **Solidity v0.4.24**. At the time of writing, the current Truffle v5 comes with Solidity v0.5 that requires function *mutability* and *visibility* to be specified (please refer to Solidity [documentation](https://docs.soliditylang.org/en/v0.5.0/050-breaking-changes.html) for more details). To use this starter code, please run `npm i -g truffle@4.1.14` to install Truffle v4 with Solidity v0.4.24. 
 
 A step by step series of examples that tell you have to get a development env running
 
